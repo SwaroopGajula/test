@@ -1,6 +1,9 @@
 angular.module('MainService',[]).factory('Main',  function($resource){
 	return {
-		saveEmp:$resource('/api/save_emp', {}, {save:{method:'POST'}}),
-		getEmp:$resource('/api/get_emp', {}, {get:{method:'GET'}})
+		login:$resource('/api/login', {}, {save:{method:'POST'}}),
+		logout:$resource('/api/logout', {}, {get:{method:'GET'}}),
+		register:$resource('/api/register', {}, {save:{method:'POST'}}),
+		verifyEmail:$resource('/api/verify_email', {}, {save:{method:'POST'}}),
+		generateOtp:$resource('/api/generate_otp', {}, {save:{method:'POST'}}),
 	};
 })

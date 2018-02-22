@@ -9,7 +9,13 @@
   "author": "swaroop",
   "license": "ISC",
   "dependencies": {
+    "connect-mongo": "^2.0.1",
     "express": "^4.16.2",
-    "mongoose": "^4.13.4"
+    "express-mailer": "^0.3.1",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "mongoose": "^4.13.4",
+    "sendmail": "^1.2.0",
+    "socket.io": "^2.0.4"
   }
 }

@@ -1,1 +1,1 @@
-angular.module('app',['appRoutes','ngResource']);
+angular.module('app',['ui.router','ngRoute','appRoutes','appRun','ngResource','MainCtrl', 'MainService','SessionService']);
