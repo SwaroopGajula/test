@@ -1,6 +1,5 @@
 var path = require('path');
 var mongoose = require('mongoose');
-var validator = require("email-validator");
 const sendmail = require('sendmail')();
 
 var Users = require('./models/users');
